@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Calibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Product_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Product_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Product_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pub_Format_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pub_Format_Definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publication_Formats"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#namespace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pressure_transducer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radiation_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thermometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor_(NEON_PN)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source_Type_(same_as_schema?)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Term_(AKA_field_or_fieldName?)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_DP_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_default_unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_description"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_field"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_schema"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#was_generated_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CA00110002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DP1.00002.001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level_0_Prime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Single_aspirated_air_temperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#readout_time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resistance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#site_id"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#source_id"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:base64Binary"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:binary"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:binaryFile"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:csv"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:dateTime"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:image"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:integer"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:real"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:signed_integer"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:string"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:textFile"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:unsigned_integer"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#neon:uri"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Data_Product_Level"/>
+        <Class IRI="#Data_Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Product_Name"/>
+        <Class IRI="#Data_Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Product_Number"/>
+        <Class IRI="#Data_Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pub_Format_Code"/>
+        <Class IRI="#Publication_Formats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pub_Format_Definition"/>
+        <Class IRI="#Publication_Formats"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#name"/>
+        <Class IRI="#Source_Type_(same_as_schema?)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#namespace"/>
+        <Class IRI="#Source_Type_(same_as_schema?)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pressure_transducer"/>
+        <Class IRI="#Sensor_(NEON_PN)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radiation_sensor"/>
+        <Class IRI="#Sensor_(NEON_PN)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thermometer"/>
+        <Class IRI="#Sensor_(NEON_PN)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type"/>
+        <Class IRI="#Source_Type_(same_as_schema?)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#version"/>
+        <Class IRI="#Source_Type_(same_as_schema?)"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Sensor_(NEON_PN)"/>
+        <NamedIndividual IRI="#CA00110002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Number"/>
+        <NamedIndividual IRI="#DP1.00002.001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Level"/>
+        <NamedIndividual IRI="#Level_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Level"/>
+        <NamedIndividual IRI="#Level_0_Prime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Level"/>
+        <NamedIndividual IRI="#Level_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Level"/>
+        <NamedIndividual IRI="#Level_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Level"/>
+        <NamedIndividual IRI="#Level_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Level"/>
+        <NamedIndividual IRI="#Level_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Product_Name"/>
+        <NamedIndividual IRI="#Single_aspirated_air_temperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Source_Type_(same_as_schema?)"/>
+        <NamedIndividual IRI="#prt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Term_(AKA_field_or_fieldName?)"/>
+        <NamedIndividual IRI="#readout_time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Term_(AKA_field_or_fieldName?)"/>
+        <NamedIndividual IRI="#resistance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Term_(AKA_field_or_fieldName?)"/>
+        <NamedIndividual IRI="#site_id"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Term_(AKA_field_or_fieldName?)"/>
+        <NamedIndividual IRI="#source_id"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype IRI="#neon:string"/>
+        </DataAllValuesFrom>
+        <AnonymousIndividual nodeID="_:genid-cb863152-513e-410e-a7a8-47ba8812f2c4"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_name"/>
+        <NamedIndividual IRI="#DP1.00002.001"/>
+        <NamedIndividual IRI="#Single_aspirated_air_temperature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_number"/>
+        <NamedIndividual IRI="#Single_aspirated_air_temperature"/>
+        <NamedIndividual IRI="#DP1.00002.001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_DP_level"/>
+        <NamedIndividual IRI="#prt"/>
+        <NamedIndividual IRI="#Level_0"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
