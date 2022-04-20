@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11"
+     xml:base="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:base64Binary -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:base64Binary"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:binary -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:binary"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:binaryFile -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:binaryFile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:csv -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:csv"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:dateTime -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:dateTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:image -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:image"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:integer -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:integer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:real -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:real"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:signed_integer -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:signed_integer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:string -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:string"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:textFile -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:textFile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:unsigned_integer -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:unsigned_integer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:uri -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:uri"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_DP_level -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_DP_level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_default_unit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_default_unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_description -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_field -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_field"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_name -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_number -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_number"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_schema -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_schema"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_unit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#has_unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#was_generated_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#was_generated_by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Calibration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Calibration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Flight_Line -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Flight_Line"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Mobile_Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Mobile_Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Modules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Modules"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Pub_Format_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Pub_Format_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Publication_Formats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Pub_Format_Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Pub_Format_Definition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Publication_Formats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Publication_Formats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Publication_Formats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#namespace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#namespace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#pressure_transducer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#pressure_transducer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Sensor_(NEON_PN)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#radiation_sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#radiation_sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Sensor_(NEON_PN)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#thermometer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#thermometer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Sensor_(NEON_PN)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Sensor_(NEON_PN) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Sensor_(NEON_PN)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?)"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Term_(AKA_field_or_fieldName?) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Term_(AKA_field_or_fieldName?)"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#CA00110002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#CA00110002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Sensor_(NEON_PN)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#DP1.00002.001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#DP1.00002.001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Number"/>
+        <untitled-ontology-11:has_name rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Single_aspirated_air_temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_0_Prime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_0_Prime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Single_aspirated_air_temperature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Single_aspirated_air_temperature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Data_Product_Name"/>
+        <untitled-ontology-11:has_number rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#DP1.00002.001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#prt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#prt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Source_Type_(same_as_schema?)"/>
+        <untitled-ontology-11:has_DP_level rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Level_0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#readout_time -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#readout_time">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Term_(AKA_field_or_fieldName?)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#resistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#resistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Term_(AKA_field_or_fieldName?)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#site_id -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#site_id">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Term_(AKA_field_or_fieldName?)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#source_id -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#source_id">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#Term_(AKA_field_or_fieldName?)"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kcawley/ontologies/2020/9/untitled-ontology-11#neon:string"/>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
